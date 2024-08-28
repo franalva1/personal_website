@@ -1,0 +1,113 @@
+header {
+  display: flex;
+  justify-content: flex-start;
+  color: black;
+}
+
+h1 {
+  font-size: large;
+  transition-duration: 0.4s;
+  cursor:pointer;
+}
+
+h1:hover {
+  color: red;
+}
+
+.works {
+  margin-left: auto;
+  padding-right: 170px;
+}
+
+:root {
+  font-family: Helvetica;
+}
+
+#enterImage {
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  width: 60%;
+}
+
+#flor, #steam, #ginger, #theDebugger {
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  width: 60%;
+}
+
+#ppcf, #bareMetal, #xmas, #teamRampage {
+  padding-left: 100px;
+  padding-top: 50px;
+  display: block;
+  margin-right: auto;  
+  width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+}
+
+.works {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+div {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 150px;
+}
+
+.hidden {
+  display: none;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+#about {
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  width: 40%;
+}
+
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: red;
+  color: black;
+}
+
+input {
+  color: black;
+}
+
+input:hover {
+  background-color: red;
+  color: black;
+}
+
+#div1 {
+  padding-top: 50px;
+  width: 90%;
+}
